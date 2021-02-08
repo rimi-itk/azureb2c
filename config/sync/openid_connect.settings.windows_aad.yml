@@ -1,0 +1,20 @@
+enabled: windows_aad
+settings:
+  redirect_url: ''
+  client_id: '$config[''openid_connect.settings.windows_aad''][''settings''][''client_id'']'
+  client_secret: '$config[''openid_connect.settings.windows_aad''][''settings''][''client_secret'']'
+  enable_single_sign_out: 0
+  authorization_endpoint_wa: '$config[''openid_connect.settings.windows_aad''][''settings''][''authorization_endpoint_wa'']'
+  token_endpoint_wa: '$config[''openid_connect.settings.windows_aad''][''settings''][''token_endpoint_wa'']'
+  map_ad_groups_to_roles: 0
+  group_mapping:
+    method: '1'
+    mappings: ''
+    strict: 0
+  userinfo_graph_api_wa: '0'
+  userinfo_endpoint_wa: ''
+  userinfo_graph_api_use_other_mails: 0
+  userinfo_update_email: 0
+  hide_email_address_warning: 0
+_core:
+  default_config_hash: zKCZci5IzwHTf3xysPemd4YQsOPQ4rce90VKNpk7PeI

@@ -1,0 +1,8 @@
+name: Azure B2C OpenID Connect
+type: module
+description: Azure B2C OpenID Connect
+core_version_requirement: ^8.8 || ^9
+package: Custom
+
+dependencies:
+  - openid_connect_windows_aad
