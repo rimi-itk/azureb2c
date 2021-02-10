@@ -1,0 +1,12 @@
+uuid: b0bc6347-3441-4f5d-9e9c-1706f6845c84
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'

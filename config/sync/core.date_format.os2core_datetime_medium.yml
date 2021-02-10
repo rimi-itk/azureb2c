@@ -1,0 +1,10 @@
+uuid: 391b41a5-fed6-4fda-8f3e-2e60c6655dc9
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HfraOKyQzLe7g0U454hsNpL1QpD4yl01d-KdLE4-ygA
+id: os2core_datetime_medium
+label: 'OS2 - mellem dato og tid'
+locked: false
+pattern: 'j. F Y - h:i'

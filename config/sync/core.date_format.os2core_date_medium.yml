@@ -1,0 +1,10 @@
+uuid: e2c06f2b-7d7a-4e66-addb-5e1809f3d806
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oH7kXGhm8Kbx5ixIxqC_i6Dp5xZy6Foln8zntl6drf0
+id: os2core_date_medium
+label: 'OS2 - mellem dato'
+locked: false
+pattern: 'j. F Y'

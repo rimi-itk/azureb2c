@@ -1,0 +1,12 @@
+uuid: 91bb134a-3247-4ed6-8c90-8c002ddaf22e
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6hJMPis7WRWzQGBZ2PevK6fStB5W4vm8jOe9KNCOE_8
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
