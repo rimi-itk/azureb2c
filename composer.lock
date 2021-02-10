@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c13a132db2064e9a84905ca8b49c520c",
+    "content-hash": "02a37ff4b82fb61844c2f7423be58b41",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5433,6 +5433,144 @@
             "homepage": "https://www.drupal.org/project/module_filter",
             "support": {
                 "source": "https://git.drupalcode.org/project/module_filter"
+            }
+        },
+        {
+            "name": "drupal/openid_connect",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/openid_connect.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/openid_connect-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "62127d6f81950124c41a76f921678ab6f0a651e3"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9",
+                "ext-json": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1608316550",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mario Steinitz",
+                    "homepage": "https://www.drupal.org/user/2536014"
+                },
+                {
+                    "name": "balintk",
+                    "homepage": "https://www.drupal.org/user/613760"
+                },
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                },
+                {
+                    "name": "pfrilling",
+                    "homepage": "https://www.drupal.org/user/169695"
+                },
+                {
+                    "name": "pjcdawkins",
+                    "homepage": "https://www.drupal.org/user/1025236"
+                },
+                {
+                    "name": "robertDouglass",
+                    "homepage": "https://www.drupal.org/user/5449"
+                },
+                {
+                    "name": "sanduhrs",
+                    "homepage": "https://www.drupal.org/user/28074"
+                }
+            ],
+            "description": "A pluggable client implementation for the OpenID Connect protocol.",
+            "homepage": "https://www.drupal.org/project/openid_connect",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/openid_connect",
+                "issues": "https://www.drupal.org/project/issues/openid_connect"
+            }
+        },
+        {
+            "name": "drupal/openid_connect_windows_aad",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/openid_connect_windows_aad.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/openid_connect_windows_aad-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "3eb95ad8df34bd7fd028634571832d4582e4090e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/openid_connect": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1592556548",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "acrazyanimal",
+                    "homepage": "https://www.drupal.org/user/696648"
+                },
+                {
+                    "name": "ajayNimbolkar",
+                    "homepage": "https://www.drupal.org/user/2876727"
+                },
+                {
+                    "name": "fabianderijk",
+                    "homepage": "https://www.drupal.org/user/278745"
+                },
+                {
+                    "name": "tomvv",
+                    "homepage": "https://www.drupal.org/user/2748021"
+                }
+            ],
+            "description": "A CTools plugin that adds a Windows Azure AD client to OpenID Connect.",
+            "homepage": "https://www.drupal.org/project/openid_connect_windows_aad",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/openid_connect_windows_aad",
+                "issues": "https://www.drupal.org/project/issues/openid_connect_windows_aad"
             }
         },
         {

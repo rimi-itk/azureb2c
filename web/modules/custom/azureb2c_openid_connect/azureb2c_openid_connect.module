@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @implements hook__openid_connect_userinfo_alter().
+ */
+function azureb2c_openid_connect_openid_connect_userinfo_alter(array &$userinfo, array $context) {
+  if (!isset($userinfo['email']) && isset($context['user_data']['upn'])) {
+    $userinfo['email'] = $context['user_data']['upn'];
+  }
+}
